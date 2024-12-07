@@ -1,0 +1,25 @@
+[window]
+
+startup_mode = "Maximized"
+
+dynamic_title = false
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+opacity = 0.69
+
+padding.x = 20
+padding.y = 20
+
+[colors]
+
+primary.foreground = "#e4e4e7"
+primary.background = "#09090b"
+
+[font]
+
+size = 20
+
+[terminal]
+
+shell  = "cmd"
