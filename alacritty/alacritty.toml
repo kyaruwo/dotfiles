@@ -1,15 +1,11 @@
 [window]
 
 startup_mode = "Maximized"
-
 dynamic_title = false
-decorations = "Full"
-decorations_theme_variant = "Dark"
-
+decorations = "None"
 opacity = 0.69
 
-padding.x = 20
-padding.y = 20
+padding = { x = 69 , y = 42 }
 
 [colors]
 
