@@ -1,3 +1,7 @@
+[general]
+
+working_directory = "D:\\"
+
 [window]
 
 startup_mode = "Maximized"
