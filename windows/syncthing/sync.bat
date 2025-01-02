@@ -6,8 +6,12 @@ if not exist %appdata%\syncthing (
     rmdir %appdata%\syncthing\syncthing-windows-amd64-v1.28.1 /s /q
     del %appdata%\syncthing\syncthing.zip
 
-    echo [InternetShortcut]> gui.url
-    echo URL=http://127.0.0.1:8384/>> gui.url
-)
+    echo [InternetShortcut]> "(web)GUI.url"
+    echo URL=http://127.0.0.1:8384/>> "(web)GUI.url"
 
-%appdata%\syncthing\syncthing.exe --no-console
+    echo taskkill /F /IM syncthing.exe> "(re)start.bat"
+    echo taskkill /F /IM syncthing.exe>> "(re)start.bat"
+    echo taskkill /F /IM syncthing.exe>> "(re)start.bat"
+    echo taskkill /F /IM syncthing.exe>> "(re)start.bat"
+    echo %appdata%\syncthing\syncthing.exe --no-console>> "(re)start.bat"
+)
