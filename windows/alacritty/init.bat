@@ -6,6 +6,7 @@ if not exist %appdata%\alacritty (
     echo URL=file:///%appdata%\alacritty\alacritty.exe>> alacritty.url
     echo IconFile=%appdata%\alacritty\alacritty.exe>> alacritty.url
     echo IconIndex=^0>> alacritty.url
-)
 
-copy alacritty.toml %appdata%\alacritty\alacritty.toml
+    echo copy alacritty.toml %appdata%\alacritty\alacritty.toml> sync.bat
+    sync.bat
+)
