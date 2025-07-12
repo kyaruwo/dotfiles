@@ -10,10 +10,18 @@
 
 <br />
 
-[re1999](https://re1999.bluepoch.com/en/home/detail.html#wallpaper)
+[voyager](https://re1999.bluepoch.com/en/home/detail.html#wallpaper)
 
-<img src="re1999.png" />
+<img src="voyager.jpg" />
 
 <br />
+
+<details><summary>archive</summary>
+
+[arcana](https://re1999.bluepoch.com/en/home/detail.html#wallpaper)
+
+<img src="arcana.png" />
+
+</details>
 
 <div />
